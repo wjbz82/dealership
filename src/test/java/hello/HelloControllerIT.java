@@ -1,4 +1,4 @@
-package hello;
+//package hello;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -15,27 +15,27 @@ import java.net.URL;
 import static org.hamcrest.Matchers.*;
 import static org.junit.Assert.*;
 
-@RunWith(SpringRunner.class)
-@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
-public class HelloControllerIT {
-
-    @LocalServerPort
-    private int port;
-
-    private URL base;
-
-    @Autowired
-    private TestRestTemplate template;
-
-    @Before
-    public void setUp() throws Exception{
-        this.base = new URL("http://localhost:" + port + "/");
-    }
-
+//@RunWith(SpringRunner.class)
+//@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
+//public class HelloControllerIT {
+//
+//    @LocalServerPort
+//    private int port;
+//
+//    private URL base;
+//
+//    @Autowired
+//    private TestRestTemplate template;
+//
+//    @Before
+//    public void setUp() throws Exception{
+//        this.base = new URL("http://localhost:" + port + "/");
+//    }
+//
 //    @Test
 //    public void getHello() throws Exception{
 //        ResponseEntity<String> response = template.getForEntity(base.toString(), String.class);
 //        assertThat(response.getBody(), equalTo("hello world"));
 //    }
 
-}
+//}
