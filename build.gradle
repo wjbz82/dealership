@@ -1,5 +1,4 @@
 group 'spring-playground'
-version '1.0-SNAPSHOT'
 
 buildscript{
     repositories {
